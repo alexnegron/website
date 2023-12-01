@@ -12,14 +12,13 @@ My interests live in the convex hull of the following areas:
 - Statistical physics of complex biological systems;
 - Computational neuroscience and the mathematical theory of machine learning.
 
+You can find summaries of the research projects I've been a part of [[Research/index|here]]. 
+
 
 Currently, I am a [K. Lisa Yang Post-baccalaureate Research Scholar](https://bcs.mit.edu/postbac1) at MIT in the Brain and Cognitive Sciences department, advised by [Ila Fiete](https://fietelab.mit.edu).  
 
-
-- Previously, I was a [Simons Collaboration on the Global Brain](https://www.simonsfoundation.org/collaborations/global-brain/) Undergraduate Research Fellow at the University of Chicago, advised by [Brent Doiron](https://brainmath.bsd.uchicago.edu).
-- You can find summaries of the research projects I've been a part of [[Research/index|here]]. 
+Previously, I was a [Simons Foundation Shenoy Undergraduate Research Fellow](https://www.simonsfoundation.org/grant/shenoy-undergraduate-research-fellowship-neuroscience-surfin/) at the University of Chicago, advised by [Brent Doiron](https://brainmath.bsd.uchicago.edu).
 
 
-Notes, thoughts, and creative works. 
 
-
+🚧 This site hosts my academic work, but I intend to write about other things too. Stay tuned. 🚧 
