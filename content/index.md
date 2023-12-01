@@ -12,7 +12,9 @@ My interests live in the convex hull of the following areas:
 - Statistical physics of complex biological systems;
 - Computational neuroscience and the mathematical theory of machine learning.
 
-You can find summaries of the research projects I've been a part of [[Research/index|here]]. 
+Academic things: 
+- Summaries of research projects are [[Research/index|here]] 🔗
+- My C.V. is [here](https://drive.google.com/file/d/1WTWcFU5vJWDjFOT-6Icvk9_eK4qhlN3C/view?usp=sharing) 🔗
 
 
 Currently, I am a [K. Lisa Yang Post-baccalaureate Research Scholar](https://bcs.mit.edu/postbac1) at MIT in the Brain and Cognitive Sciences department, advised by [Ila Fiete](https://fietelab.mit.edu).  
