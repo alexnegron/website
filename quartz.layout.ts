@@ -2,14 +2,22 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
 // components shared across all pages
+// import githubLogo from 'content/github-mark.svg';
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
+  // header: [Component.LinksHeader()],
   header: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/alexnegron",
+      GoogleScholar: "https://scholar.google.com/citations?user=FOMHR0UAAAAJ&hl=en",
+      X: "https://x.com/algomage",
     },
+    icons: {
+      GitHub: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg",
+      GoogleScholar: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlescholar.svg",
+      X: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/x.svg",
+    }
   }),
 }
 
@@ -18,31 +26,30 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
-    Component.ContentMeta(),
     Component.TagList(),
   ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
+    Component.Search(), 
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
   ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.ArticleTitle()],
+  beforeBody: [
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+  ],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
+    Component.Search(), 
     Component.Darkmode(),
   ],
-  right: [],
+  right: [
+  ],
 }

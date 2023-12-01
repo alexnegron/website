@@ -1,6 +1,6 @@
-@use "./variables.scss" as *;
 @use "./syntax.scss";
 @use "./callouts.scss";
+@use "./variables.scss" as *;
 
 html {
   scroll-behavior: smooth;
@@ -44,11 +44,12 @@ ul,
 .math {
   color: var(--darkgray);
   fill: var(--darkgray);
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
   hyphens: auto;
 }
 
 .math {
+  font-size: 1rem;
   &.math-display {
     text-align: center;
   }
@@ -64,7 +65,7 @@ a {
     color: var(--tertiary) !important;
   }
 
-  &.internal:not(:has(> img)) {
+  &.internal {
     text-decoration: none;
     background-color: var(--highlight);
     padding: 0 0.1rem;
@@ -94,8 +95,6 @@ a {
   }
 
   & article {
-    position: relative;
-
     & > h1 {
       font-size: 2rem;
     }
@@ -390,33 +389,23 @@ p {
   line-height: 1.6rem;
 }
 
-.table-container {
-  overflow-x: auto;
-
-  & > table {
-    margin: 1rem;
-    padding: 1.5rem;
-    border-collapse: collapse;
-
-    th,
-    td {
-      min-width: 75px;
-    }
-
-    & > * {
-      line-height: 2rem;
-    }
+table {
+  margin: 1rem;
+  padding: 1.5rem;
+  border-collapse: collapse;
+  & > * {
+    line-height: 2rem;
   }
 }
 
 th {
   text-align: left;
-  padding: 0.4rem 0.7rem;
+  padding: 0.4rem 1rem;
   border-bottom: 2px solid var(--gray);
 }
 
 td {
-  padding: 0.2rem 0.7rem;
+  padding: 0.2rem 1rem;
 }
 
 tr {
@@ -457,7 +446,7 @@ video {
 
 ul.overflow,
 ol.overflow {
-  max-height: 400;
+  height: 350px;
   overflow-y: auto;
 
   // clearfix
@@ -472,18 +461,12 @@ ol.overflow {
     pointer-events: none;
     content: "";
     width: 100%;
-    height: 50px;
+    height: 30px;
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 30px;
     opacity: 1;
     transition: opacity 0.3s ease;
     background: linear-gradient(transparent 0px, var(--light));
-  }
-}
-
-.transclude {
-  ul {
-    padding-left: 1rem;
   }
 }
