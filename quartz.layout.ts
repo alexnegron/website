@@ -1,4 +1,5 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
+import ProfilePicture from "./components/ProfilePicture" 
 import * as Component from "./quartz/components"
 
 // components shared across all pages
@@ -24,6 +25,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
+    Component.ProfilePicture(),
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.TagList(),
@@ -53,3 +55,4 @@ export const defaultListPageLayout: PageLayout = {
   right: [
   ],
 }
+
