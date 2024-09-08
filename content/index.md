@@ -2,12 +2,28 @@
 title: Alex Negrón
 enableToc: true
 ---
+<!-- 
+I am a mathematical scientist pursuing my PhD in the [Program in Applied and Computational Mathematics (PACM)](https://www.pacm.princeton.edu/) at Princeton University. 
+
+I'm advised by [Boris Hanin](https://boris-hanin.github.io) and work closely with [Gautam Reddy](https://reddylab.physics.princeton.edu). I'm grateful to be supported by the [Department of Energy Computational Science Graduate Fellowship (DOE CSGF)](https://www.krellinst.org/csgf/). 
+
+You can find my [C.V. here 📄.](https://drive.google.com/file/d/1WTWcFU5vJWDjFOT-6Icvk9_eK4qhlN3C/view?usp=sharing)  -->
+
+<div style="display: flex; align-items: flex-start;">
+<div style="flex: 1;">
 
 I am a mathematical scientist pursuing my PhD in the [Program in Applied and Computational Mathematics (PACM)](https://www.pacm.princeton.edu/) at Princeton University. 
 
 I'm advised by [Boris Hanin](https://boris-hanin.github.io) and work closely with [Gautam Reddy](https://reddylab.physics.princeton.edu). I'm grateful to be supported by the [Department of Energy Computational Science Graduate Fellowship (DOE CSGF)](https://www.krellinst.org/csgf/). 
 
 You can find my [C.V. here 📄.](https://drive.google.com/file/d/1WTWcFU5vJWDjFOT-6Icvk9_eK4qhlN3C/view?usp=sharing) 
+
+</div>
+
+<img src="static/profile.jpg" alt="Alex Negrón" style="width: 200px; height: auto; margin-left: 20px;">
+
+</div>
+
 
 ---
 
