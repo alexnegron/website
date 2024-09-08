@@ -45,7 +45,10 @@ My name:
 - IPA pronunciation: [ˈælɪks neˈgroʊn](http://ipa-reader.xyz/?text=ˈælɪks%20neˈgroʊn&voice=)
 - Lately I'm noticing a high concentration of Alex's in the fields in which I participate. To disambiguate, if I run into several Alex's at a conference, I might switch to Alejandro. To be precise, let us agree my first name is actually 
 $$
-\text{Alejandro}\cdot \mathbf{1}_{\left\{ \# \text{Alex's in vicinity} \geq 2 \right\}} + \text{Alex} \cdot \mathbf{1}_{\left\{ \# \text{Alex's in vicinity} < 2 \right\}}.
+\begin{cases}
+\text{Alejandro} & \text{\# Alex's in vicinity } \geq 2 \\
+\text{Alex} & \text{otherwise}
+\end{cases}
 $$
 
 
