@@ -3,11 +3,15 @@ title: Alex Negrón
 enableToc: true
 ---
 
-I am a mathematical scientist pursuing my PhD in the [Program in Applied and Computational Mathematics (PACM)](https://www.pacm.princeton.edu/) at Princeton University. I'm advised by [Boris Hanin](https://boris-hanin.github.io) and work closely with [Gautam Reddy](https://reddylab.physics.princeton.edu). I'm grateful to be supported by the [Department of Energy Computational Science Graduate Fellowship (DOE CSGF)](https://www.krellinst.org/csgf/). 
+I am a mathematical scientist pursuing my PhD in the [Program in Applied and Computational Mathematics (PACM)](https://www.pacm.princeton.edu/) at Princeton University. 
+
+I'm advised by [Boris Hanin](https://boris-hanin.github.io) and work closely with [Gautam Reddy](https://reddylab.physics.princeton.edu). I'm grateful to be supported by the [Department of Energy Computational Science Graduate Fellowship (DOE CSGF)](https://www.krellinst.org/csgf/). 
+
+You can find my [C.V. here 📄.](https://drive.google.com/file/d/1WTWcFU5vJWDjFOT-6Icvk9_eK4qhlN3C/view?usp=sharing) 
 
 ---
 
-## I think about high-dimensional nonlinear systems that organize, compute, and learn. 
+## I think about the mathematics of high-dimensional nonlinear systems that organize, compute, and learn. 
 
 Somehow, I don't care whether these systems are neuronal, algorithmic, made of particles, or something else entirely — I'm interested in the universal mathematical and statistical structures underlying their  function. 
 
@@ -26,17 +30,15 @@ I'm also generally excited by mathematics that live in the convex hull formed by
 - random matrix theory 
 
 
-> [!summary] Table of Contents
-> 
-> - [C.V. 🔗](https://drive.google.com/file/d/1WTWcFU5vJWDjFOT-6Icvk9_eK4qhlN3C/view?usp=sharing) 
-> - [[Research/index|Research projects]] 
-
-
-Previous adventures: 
+### Previous adventures
 - [2022 - 2024] [K. Lisa Yang Post-baccalaureate Research Scholar](https://bcs.mit.edu/postbac1) at MIT in the Brain and Cognitive Sciences department, advised by [Ila Fiete](https://fietelab.mit.edu)  
 - [2021 - 2022] [Simons Foundation Shenoy Undergraduate Research Fellow](https://www.simonsfoundation.org/grant/shenoy-undergraduate-research-fellowship-neuroscience-surfin/) at the University of Chicago, advised by [Brent Doiron](https://brainmath.bsd.uchicago.edu)
 - I earned a B.S. in Applied Mathematics, B.S. in Statistics from the Illinois Institute of Technology, advised by [Sergey Nadtochiy](https://sites.google.com/view/sergey-nadtochiy)
 - In a previous life, I wrote poetry and fiction at Northwestern University and studied Classics. 
+
+### Contact
+- email: an4386[at]princeton[dot]edu
+- twitter: @algomage 
 
 My name: 
 - IPA pronunciation: [ˈælɪks neˈgroʊn](http://ipa-reader.xyz/?text=ˈælɪks%20neˈgroʊn&voice=)
@@ -54,5 +56,4 @@ $$
 
 
 <p style="text-align: center;">🚧 🚧 🚧</p>
-
-This site hosts my academic work, but I intend to write about other things too. Stay tuned.
+<p style="text-align: center;">This site hosts my academic work, but I intend to write about other things too.</p>
