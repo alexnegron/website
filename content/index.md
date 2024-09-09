@@ -30,16 +30,17 @@ I'm also generally excited by mathematics that live in the convex hull formed by
 - interacting particle systems  
 - random matrix theory 
 
+### Contact
+- email: an4386[at]princeton[dot]edu
+- twitter: @algomage 
 
-### Previous adventures
+
+## Previous adventures
 - [2022 - 2024] [K. Lisa Yang Post-baccalaureate Research Scholar](https://bcs.mit.edu/postbac1) at MIT in the Brain and Cognitive Sciences department, advised by [Ila Fiete](https://fietelab.mit.edu)  
 - [2021 - 2022] [Simons Foundation Shenoy Undergraduate Research Fellow](https://www.simonsfoundation.org/grant/shenoy-undergraduate-research-fellowship-neuroscience-surfin/) at the University of Chicago, advised by [Brent Doiron](https://brainmath.bsd.uchicago.edu)
 - I earned a B.S. in Applied Mathematics, B.S. in Statistics from the Illinois Institute of Technology, advised by [Sergey Nadtochiy](https://sites.google.com/view/sergey-nadtochiy)
 - In a previous life, I wrote poetry and fiction at Northwestern University and studied Classics. 
 
-### Contact
-- email: an4386[at]princeton[dot]edu
-- twitter: @algomage 
 
 My name: 
 - IPA pronunciation: [ˈælɪks neˈgroʊn](http://ipa-reader.xyz/?text=ˈælɪks%20neˈgroʊn&voice=)
