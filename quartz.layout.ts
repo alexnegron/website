@@ -12,7 +12,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       GitHub: "https://github.com/alexnegron",
       GoogleScholar: "https://scholar.google.com/citations?user=FOMHR0UAAAAJ&hl=en",
-      X: "https://x.com/algomage",
+      X: "https://x.com/negronax",
     },
     icons: {
       GitHub: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg",
