@@ -18,7 +18,7 @@ I'm advised by [Boris Hanin](https://boris-hanin.github.io). I'm grateful to be 
 I think about the **mathematics of high-dimensional non-linear systems that organize, compute, and learn**. I study these systems using tools from probability theory and partial differential equations. 
 
 Current (~April '26) research topics: 
-- Mathematical foundations of deep/machine learning
+- mathematical foundations of deep/machine learning
 - nonlinear PDEs in models of biological neural computation 
 
 <!-- A central question motivating my work is the following:
