@@ -15,25 +15,22 @@ I'm advised by [Boris Hanin](https://boris-hanin.github.io). I'm grateful to be 
 
 ---
 
-## I think about the mathematics of high-dimensional nonlinear systems that <u>*organize*</u>, <u>*compute*</u>, and <u>*learn*</u>.
+I think about the **mathematics of high-dimensional non-linear systems that organize, compute, and learn**. I study these systems using tools from probability theory and partial differential equations. 
 
-Whether these systems are neuronal, algorithmic, made of particles, or something else entirely — I'm interested in universal mathematical structure underlying their function. 
+Current (~April '26) research topics: 
+- Mathematical foundations of deep/machine learning
+- nonlinear PDEs in models of biological neural computation 
 
-The big scientific question motivating my work is the following:
+<!-- A central question motivating my work is the following:
+> What distinguishes ***life*** and ***mind*** from the ***matter*** and ***energy*** that composes them? -->
 
-> What distinguishes ***life*** and ***mind*** from the ***matter*** and ***energy*** that composes them?
+Mathematical subjects I find exciting: 
+- random matrix theory
+- spin glasses and disordered systems 
+- interacting particle systems and kinetic equations 
+- nonlinear dispersive PDE and stochastic PDEs in mathematical physics 
+- formalization in Lean 
 
-Some topics occupying me lately:
-- mathematical foundations of deep learning 
-- high-dimensional statistics 
-- learning PDEs in high dimension 
-- complex biological systems 
-
-I'm generally excited by mathematics in the convex hull of the following areas:
-- partial differential equations
-- high-dimensional phenomena in probability and statistics
-- interacting particle systems  
-- random matrix theory 
 
 
 ## Previous chapters
