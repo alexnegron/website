@@ -20,7 +20,7 @@ I think about the **mathematics of high-dimensional, non-linear systems that org
 
 I study these systems with ideas seeded along the interface of probability theory and partial differential equations. I get excited when I see the same mathematical structures percolating up from diverse scientific and engineering applications, like deep learning, high-dimensional statistics, biological neural computation, disordered systems, and developmental biology. 
 
-> Active (~April '26) research topics: 
+> **Active (~April '26) research topics** 
 > - mathematical foundations of deep/machine learning
 > - nonlinear PDEs in models of biological neural computation 
 
