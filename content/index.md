@@ -4,9 +4,9 @@ enableToc: true
 ---
 <img src="static/profile.jpg" alt="Alex Negrón" style="float: right; width: 180px; height: auto; margin-left: 20px; margin-bottom: 20px;">
 
-I am a mathematical scientist doing my PhD in the [Program in Applied and Computational Mathematics (PACM)](https://www.pacm.princeton.edu/) at Princeton University. 
+I'm a mathematical scientist doing my PhD in the [Program in Applied and Computational Mathematics (PACM)](https://www.pacm.princeton.edu/) at Princeton University. 
 
-I'm advised by [Boris Hanin](https://boris-hanin.github.io) and my work is supported by the [Department of Energy Computational Science Graduate Fellowship (DOE CSGF)](https://www.krellinst.org/csgf/). I feel incredibly lucky, and I'm grateful for the mentorship and freedom my advisor, program, and fellowship afford me. 
+My advisor is [Boris Hanin](https://boris-hanin.github.io) and my work is supported by the [Department of Energy Computational Science Graduate Fellowship (DOE CSGF)](https://www.krellinst.org/csgf/). I feel incredibly lucky, and I'm grateful for the mentorship and freedom my advisor, program, and fellowship afford me. 
 
 
 ### Contact
@@ -16,13 +16,19 @@ I'm advised by [Boris Hanin](https://boris-hanin.github.io) and my work is suppo
 
 ---
 
-I think about the **mathematics of high-dimensional, non-linear systems that organize, learn, and compute**. 
+I study high-dimensional, nonlinear systems that organize, learn, and compute. I draw from ideas seeded in probability theory, mathematical physics, and partial differential equations to understand how collective behavior emerges from many interacting components.
 
-I study these systems with ideas seeded along the interface of probability theory and partial differential equations. I get excited when I see the same mathematical structures percolating up from diverse scientific and engineering applications, like deep learning, high-dimensional statistics, biological neural computation, disordered systems, and developmental biology. 
+Recently, my passion is for mathematical phenomena that percolate up from a range of scientific and engineering applications. Current examples in my work include deep learning, disordered dynamics in high dimension, biological neural computation, and unconventional/analog computing. 
 
-> **Active (~April '26) research topics** 
-> - mathematical foundations of deep/machine learning
-> - nonlinear PDEs in models of biological neural computation 
+<div class="interacting-particle-field" role="img" aria-label="An interactive Brownian particle system; pointer motion changes its temperature and clicking creates temporary potential wells">
+  <canvas class="interacting-particles" aria-hidden="true"></canvas>
+</div>
+
+> **Active (~Fall '26) research topics** 
+> - mathematical foundations of deep learning, especially scaling limits and the dynamics of deep neural networks in feature-learning regime;
+> - mathematical principles underlying hyperparameter transfer;
+> - the theory and practice of thermodynamic computing;
+> - nonlinear PDE models of computation in biological neural systems.
 
 <!-- A central question motivating my work is the following:
 > What distinguishes ***life*** and ***mind*** from the ***matter*** and ***energy*** that composes them? -->
@@ -30,7 +36,7 @@ I study these systems with ideas seeded along the interface of probability theor
 Subjects I find particularly beautiful and fun to learn about:
 - random matrix theory
 - spin glasses and disordered systems 
-- interacting particle systems and kinetic equations 
+- interacting particle systems and kinetic equations (especially emerging tools for non-exchangeable particle systems)
 - stochastic PDEs in mathematical physics
 - developmental biology and morphogenesis 
 - theoretical and computational neuroscience
@@ -39,7 +45,7 @@ Other random things I like:
 - formalization in Lean
 - energy-based algorithms and probabilistic hardware
 - hockey and American football (go Bills)
-- techno and house music 🎚️ 
+- techno and house music 🎚️
 
 --- 
 

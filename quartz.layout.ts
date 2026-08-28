@@ -25,6 +25,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
+    Component.ParticleSystem(),
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.TagList(),
@@ -54,4 +55,3 @@ export const defaultListPageLayout: PageLayout = {
   right: [
   ],
 }
-

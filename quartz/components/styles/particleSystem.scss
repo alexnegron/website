@@ -1,0 +1,20 @@
+.interacting-particle-field {
+  display: block;
+  width: 100%;
+  height: clamp(7rem, 18vw, 9rem);
+  margin: 1.35rem 0 1.6rem;
+}
+
+.interacting-particles {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: pan-y;
+}
+
+@media (max-width: 600px) {
+  .interacting-particle-field {
+    height: 7rem;
+    margin-block: 1.15rem 1.4rem;
+  }
+}

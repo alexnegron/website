@@ -20,6 +20,7 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import ProfilePicture from "./ProfilePicture"
+import ParticleSystem from "./ParticleSystem"
 
 export {
   ArticleTitle,
@@ -44,5 +45,5 @@ export {
   NotFound,
   Breadcrumbs,
   ProfilePicture,
+  ParticleSystem,
 }
-
