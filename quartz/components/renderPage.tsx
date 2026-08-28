@@ -17,18 +17,23 @@ interface RenderComponents {
   footer: QuartzComponent
 }
 
+// Core Quartz assets use stable filenames, while production hosts may cache them for hours.
+// Give each build a new URL so a fresh page never reuses JavaScript or CSS from an older deploy.
+const buildAssetVersion = Date.now().toString(36)
+const versionedAsset = (path: string) => `${path}?v=${buildAssetVersion}`
+
 export function pageResources(
   baseDir: FullSlug | RelativeURL,
   staticResources: StaticResources,
 ): StaticResources {
-  const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
+  const contentIndexPath = versionedAsset(joinSegments(baseDir, "static/contentIndex.json"))
   const contentIndexScript = `const fetchData = fetch(\`${contentIndexPath}\`).then(data => data.json())`
 
   return {
-    css: [joinSegments(baseDir, "index.css"), ...staticResources.css],
+    css: [versionedAsset(joinSegments(baseDir, "index.css")), ...staticResources.css],
     js: [
       {
-        src: joinSegments(baseDir, "prescript.js"),
+        src: versionedAsset(joinSegments(baseDir, "prescript.js")),
         loadTime: "beforeDOMReady",
         contentType: "external",
       },
@@ -40,7 +45,7 @@ export function pageResources(
       },
       ...staticResources.js,
       {
-        src: joinSegments(baseDir, "postscript.js"),
+        src: versionedAsset(joinSegments(baseDir, "postscript.js")),
         loadTime: "afterDOMReady",
         moduleType: "module",
         contentType: "external",
