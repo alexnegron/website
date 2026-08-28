@@ -1,0 +1,61 @@
+{
+  "name": "@alexnegron/quartz-particle-system",
+  "version": "1.0.0",
+  "description": "Interactive Brownian particle system for alexnegron.com",
+  "type": "module",
+  "private": true,
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./components": {
+      "types": "./dist/components/index.d.ts",
+      "import": "./dist/components/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@quartz-community/types": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "esbuild": "^0.27.2",
+    "sass": "^1.97.3",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  },
+  "quartz": {
+    "name": "particle-system",
+    "displayName": "Particle System",
+    "category": [
+      "component"
+    ],
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultEnabled": true,
+    "defaultOptions": {},
+    "components": {
+      "ParticleSystem": {
+        "displayName": "Particle System",
+        "description": "Interactive Brownian particle field",
+        "defaultPosition": "beforeBody",
+        "defaultPriority": 1
+      }
+    }
+  },
+  "engines": {
+    "node": ">=22",
+    "npm": ">=10.9.2"
+  }
+}

@@ -1,3 +1,45 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+footer {
+  opacity: 0.9;
+
+  > p {
+    display: none;
+  }
+
+  ul {
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 0;
+
+    a {
+      display: block;
+      width: 24px;
+      height: 24px;
+      overflow: hidden;
+      color: transparent;
+      font-size: 0;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    a[href*="github.com/alexnegron"] {
+      background-image: url("https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg");
+    }
+
+    a[href*="scholar.google.com/citations"] {
+      background-image: url("https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/googlescholar.svg");
+    }
+
+    a[href*="x.com/negronax"] {
+      background-image: url("https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/x.svg");
+    }
+  }
+}
+
+[saved-theme="dark"] footer ul a {
+  filter: invert(1);
+}
