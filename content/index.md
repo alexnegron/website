@@ -27,7 +27,7 @@ Recently, my passion is for mathematical phenomena that percolate up from a rang
 
 > **Active (~Fall '26) research topics**
 >
-> - mathematical foundations of deep learning, especially scaling limits and the dynamics of deep neural networks in feature-learning regime;
+> - mathematical foundations of deep learning, especially scaling limits and the dynamics of deep neural networks in the feature-learning regime;
 > - mathematical principles underlying hyperparameter transfer;
 > - the theory and practice of thermodynamic computing;
 > - nonlinear PDE models of computation in biological neural systems.
