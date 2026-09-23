@@ -7,7 +7,7 @@ enableToc: true
 
 I'm a mathematical scientist doing my PhD in the [Program in Applied and Computational Mathematics (PACM)](https://www.pacm.princeton.edu/) at Princeton University.
 
-My advisor is [Boris Hanin](https://boris-hanin.github.io) and my work is supported by the [Department of Energy Computational Science Graduate Fellowship (DOE CSGF)](https://www.krellinst.org/csgf/). I feel incredibly lucky, and I'm grateful for the mentorship and freedom my advisor, program, and fellowship afford me.
+I am advised by [Boris Hanin](https://boris-hanin.github.io). My work is supported by the [Department of Energy Computational Science Graduate Fellowship (DOE CSGF)](https://www.krellinst.org/csgf/). I feel incredibly lucky, and I'm grateful for the mentorship and freedom my advisor, program, and fellowship afford me.
 
 ### Contact
 
@@ -17,9 +17,9 @@ My advisor is [Boris Hanin](https://boris-hanin.github.io) and my work is suppor
 
 ---
 
-I study high-dimensional, nonlinear systems that organize, learn, and compute. I draw from ideas seeded in probability theory, mathematical physics, and partial differential equations to understand how collective behavior emerges from many interacting components.
+I study high-dimensional, nonlinear systems that organize, learn, and compute. I draw from ideas seeded in probability theory, mathematical physics, and partial differential equations.
 
-Recently, my passion is for mathematical phenomena that percolate up from a range of scientific and engineering applications. Current examples in my work include deep learning, disordered dynamics in high dimension, biological neural computation, and unconventional/analog computing.
+I'm interested in a wide range of mathematical phenomena that percolate up from scientific and engineering disciplines. Current examples in my work include deep learning, disordered dynamics in high dimension, biological neural computation, and unconventional/analog computing.
 
 <div class="interacting-particle-field" role="img" aria-label="An interactive Brownian particle system; pointer motion changes its temperature and clicking creates temporary potential wells">
   <canvas class="interacting-particles" aria-hidden="true"></canvas>
@@ -29,7 +29,7 @@ Recently, my passion is for mathematical phenomena that percolate up from a rang
 >
 > - mathematical foundations of deep learning, especially scaling limits and the dynamics of deep neural networks in the feature-learning regime;
 > - mathematical principles underlying hyperparameter transfer;
-> - the theory and practice of thermodynamic computing;
+> - theory and practice of thermodynamic computing;
 > - nonlinear PDE models of computation in biological neural systems.
 
 <!-- A central question motivating my work is the following:
